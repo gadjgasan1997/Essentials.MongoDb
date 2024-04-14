@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F7A474D1-6DFC-4712-BBB6-9B6A27162932}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "publish", "publish", "{F7A12EF7-A670-4B7C-BEC5-6D4AAE94471A}"
+	ProjectSection(SolutionItems) = preProject
+		publish\publish.cmd = publish\publish.cmd
+		publish\settings.cmd = publish\settings.cmd
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solutionItems", "solutionItems", "{EE1FD093-69B3-4EC6-BAF8-93886D759418}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		nuget.config = nuget.config
+		README.md = README.md
+		.idea\.idea.Essentials.MongoDb\.idea\workspace.xml = .idea\.idea.Essentials.MongoDb\.idea\workspace.xml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Essentials.MongoDb.Core", "src\Essentials.MongoDb.Core\Essentials.MongoDb.Core.csproj", "{ACFCA07E-6B02-463D-902B-E5E11A4FC695}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ACFCA07E-6B02-463D-902B-E5E11A4FC695} = {F7A474D1-6DFC-4712-BBB6-9B6A27162932}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACFCA07E-6B02-463D-902B-E5E11A4FC695}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACFCA07E-6B02-463D-902B-E5E11A4FC695}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACFCA07E-6B02-463D-902B-E5E11A4FC695}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACFCA07E-6B02-463D-902B-E5E11A4FC695}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
